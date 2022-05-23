@@ -1,0 +1,78 @@
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* selettore via id */
+#saluto {
+    /* color: red; */ /* scorciatoia del browser */
+    /* color: #2ecd28; */ /* hex */
+    /* color: rgb(53, 211, 119); */ /* RGB */
+    color: rgba(255,255,255,0.75); 
+    background-color: #0000ff;
+}
+
+#prova-larghezza {
+    color: red;
+    width: 500px; /* questa regola è ignorata, poichè il tag a cui è applicata è di tipo inline */
+}
+
+#primo-div {
+    width: 75%;
+    height: 200px;
+    background-color: #0000ff;
+}
+
+#secondo-div {
+    width: 50%;
+    background-color: #ff0000;
+    height: 100px;
+}
+
+#terzo-div {
+    width: 25%;
+    background-color: #ffee00;
+    height: 50px;
+}
+
+#prova-larghezza-75-figlio {
+    width: 75%;
+    background-color: aqua;
+}
+
+#matite {
+    width: 400px;
+    height: 300px;
+    border: solid 5px #000;
+    background-image: url('../img/matite.jpeg');
+}
+
+/* selettore con classi */
+.evidenziatore {
+   background-color: #ffee00; 
+}
+
+.testo-sx {
+    text-align: left;
+}
+
+.testo-center {
+    text-align: center;
+}
+
+.testo-dx {
+    text-align: right;
+}
+
+.sottolinea {
+    text-decoration: underline;
+}
+
+/* il selettore è il nome del tag*/
+/* div {
+    border: 1px solid rgb(255, 196, 0);
+} */
+
+p {
+    font-size: 22px;
+    font-weight: 100;
+}
